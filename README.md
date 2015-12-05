@@ -1,42 +1,7 @@
-# gc-aws-cookbook
+# gc-aws
 
-TODO: Enter the cookbook description here.
+Configure AWS for Postgres + Multicorn.
 
-## Supported Platforms
+## License
 
-TODO: List your supported platforms.
-
-## Attributes
-
-<table>
-  <tr>
-    <th>Key</th>
-    <th>Type</th>
-    <th>Description</th>
-    <th>Default</th>
-  </tr>
-  <tr>
-    <td><tt>['gc-aws']['bacon']</tt></td>
-    <td>Boolean</td>
-    <td>whether to include bacon</td>
-    <td><tt>true</tt></td>
-  </tr>
-</table>
-
-## Usage
-
-### gc-aws::default
-
-Include `gc-aws` in your node's `run_list`:
-
-```json
-{
-  "run_list": [
-    "recipe[gc-aws::default]"
-  ]
-}
-```
-
-## License and Authors
-
-Author:: YOUR_NAME (<YOUR_EMAIL>)
+AGPL3
