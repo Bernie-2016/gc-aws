@@ -1,1 +1,1 @@
-node.default['postgresql']['server']['packages'] = ['postgresql-9.3', 'pg_config']
+node.default['postgresql']['password']['postgres'] = node[:deploy]['ground-control'][:environment_variables][:PG_PASSWORD]
