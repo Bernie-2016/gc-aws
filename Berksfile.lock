@@ -2,6 +2,7 @@ DEPENDENCIES
   gc-aws
     path: .
   multicorn (~> 1.0.4)
+  postgis (~> 0.3.0)
   postgresql
     git: https://github.com/phlipper/chef-postgresql.git
     revision: df0423d11db9f4cf1c66ae6d94bcde86ab32f30a
@@ -10,10 +11,16 @@ GRAPH
   apt (2.9.2)
   gc-aws (0.2.0)
     multicorn (>= 0.0.0)
+    postgis (>= 0.0.0)
     postgresql (>= 0.0.0)
-  multicorn (1.0.4)
+  multicorn (1.0.5)
     postgresql (>= 0.0.0)
     zip (>= 0.0.0)
+  postgis (0.3.0)
+    apt (>= 0.0.0)
+    postgresql (>= 0.0.0)
+    yum (>= 0.0.0)
   postgresql (0.16.1)
     apt (>= 2.6.1)
+  yum (3.8.2)
   zip (1.1.0)
