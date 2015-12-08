@@ -16,7 +16,7 @@ postgresql_user 'ground_control' do
   createdb false
   login true
   replication false
-  password 'password'
+  password node.default['postgres']['pg_password']
 end
 
 postgresql_database 'ground_control' do
