@@ -10,7 +10,7 @@ pkg/
 .vagrant
 berks-cookbooks
 cookbooks
-cookbooks-*.tar.gz
+cookbooks*.tar.gz
 
 # Bundler
 Gemfile.lock
