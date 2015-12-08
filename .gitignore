@@ -8,6 +8,8 @@ pkg/
 
 # Berkshelf
 .vagrant
+berks-cookbooks
+cookbooks
 
 # Bundler
 Gemfile.lock
